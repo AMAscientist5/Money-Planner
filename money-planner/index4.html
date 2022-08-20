@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Site</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1 class="heading"> Money Master <span>&#128176;</span></h1>
+            <div class="container-div">
+
+                <div class="div1">
+                    <img class="img" src="money3.jpg" alt="">
+                </div>
+
+                <div class="div2">
+                    <h3>Income</h3>
+
+                    <lebel>
+                        Income:
+                        <input id="income-field" class="commonInput" type="text">
+                    </lebel>
+
+                    <h3>Expenses</h3>
+                    <lebel>
+                        Food:
+                        <input id="food-field" class="commonInput" type="text">
+                    </lebel>
+                    <br>
+
+                    <lebel>
+                        Rent:
+                        <input id="rent-field" class="commonInput" type="text">
+                    </lebel>
+                    <br>
+
+                    <lebel>
+                        Cloth:
+                        <input id="cloth-field" class="commonInput" type="text">
+                    </lebel>
+                    <br>
+
+                    <input id="btn-calculator" class="btn-color" type="button" value="Calculate">
+                    <h3>Total Expenses: <span id="total-expenses">0</span> </h3>
+                    <h3>Balance: <span id="balance"> 0</span></h3>
+
+                    <lebel>
+                        Save:
+                        <input id="save-field" class="save-input" type="text">
+                    </lebel>
+
+                    <lebel>
+                        &#37;
+                        <input id="btn-save" class="btn-color" type="button" value="Save">
+                    </lebel>
+
+                    <h3>Saving Amount: <span id="saving-amount">0</span> </h3>
+                    <h3>Remaining Balance: <span id="remaining-balance-amount">0</span> </h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
